@@ -17,7 +17,7 @@ on:
         description: Comma-separated target architectures
         required: false
         type: string
-        default: android-arm64
+        default: android-x86_64
       port:
         description: Custom port; empty keeps the upstream default
         required: false
@@ -54,7 +54,7 @@ on:
         description: Target architecture(s)
         required: true
         type: choice
-        default: android-arm64
+        default: android-x86_64
         options:
           - android-x86_64
       port:
