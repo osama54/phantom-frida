@@ -56,10 +56,7 @@ on:
         type: choice
         default: android-arm64
         options:
-          - android-arm64
-          - android-arm
-          - android-arm64,android-arm
-          - android-arm64,android-arm,android-x86_64,android-x86
+          - android-x86_64
       port:
         description: Custom port; empty keeps the upstream default
         required: false
